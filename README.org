@@ -1,0 +1,48 @@
+* Market Checkout
+A simple cashier function that adds products to a cart and displays the total price.
+
+** Stack
+- Java 15
+- Maven 3.8.1
+- Junit 5    
+
+** How to Run
+This system implemented only the business related with the US description.
+
+So to run, you must execute it via maven test.
+
+*** On the command line
+    Assuming that you have the maven and the java running on the terminal (properly installed and configured on the environment), you must execute
+
+    `mvn test`
+
+    This will run the tests and show the report on the screen.
+
+*** Using Eclipse or IntelliJ
+    - Import the project on the IDE as Maven Project
+    - Right Click on the project and Run the Maven Test
+    - Also it's possible to run the code coverage on it.
+    
+
+** Tasks
+*** DONE First Setup [3/3]
+    - [X] Create maven project
+    - [X] Add Java 15 support
+    - [X] Add JUnit 5
+*** DONE Main Actions
+    - [2/2] Create Cart model
+      - [X] Test Case
+      - [X] Model	
+    - [2/2] Create Checkout Service
+      - [X] Test Case
+      - [X] Service Class
+*** DONE Rules[5/5]
+   - [X] Buy One Get One Free for GR1
+   - [X] Strawberry discount for bulk purchase
+   - [X] 3 or more coffes - price should drop     
+   - [X] Test no discount applied  
+   - [X] Test all discounts applied at the same time
+*** Extras [2/2]
+   - [X] Proper fill the Readme file
+   - [X] Push it to github   
+     
